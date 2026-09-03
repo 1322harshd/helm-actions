@@ -25,5 +25,5 @@ jobs:
                     password: ${{ secrets.GITHUB_TOKEN }}
             - name: Build and push helm base image
               run: |
-                docker build -t ghcr.io/${{ github.repository_owner }}/helm-base:latest -/base-image
+                docker build -t ghcr.io/${{ github.repository_owner }}/helm-base:latest ./base-image
                 docker push ghcr.io/${{ github.repository_owner }}/helm-base:latest
