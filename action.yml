@@ -1,4 +1,4 @@
-name: helm-actions
+name: helm-actions-learning
 description: A GitHub Action to run Helm commands in CI/CD workflows
 author: "Harshdeep Singh"
 
